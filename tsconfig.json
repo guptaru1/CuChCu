@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir" : "./src",
+    "lib" : ["ESNext"],
+    "esModuleInterop": true
+  },
+  //apply all the files from source 
+  "include" : ["src/**/*.ts"]
+}
